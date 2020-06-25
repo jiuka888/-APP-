@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_weixin"
+        android:layout_width="18dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/tab_weixin"
+        android:title="微信" />
+
+    <item
+        android:id="@+id/navigation_contact_list"
+        android:layout_width="18dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/tab_contact_list"
+        android:title="通讯录" />
+    <item
+        android:id="@+id/navigation_find"
+        android:layout_width="18dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/tab_find"
+        android:title="发现" />
+    <item
+        android:id="@+id/navigation_profil"
+        android:layout_width="18dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/tab_profile"
+        android:title="我" />
+
+</menu>
